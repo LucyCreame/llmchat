@@ -189,5 +189,4 @@ if prompt := st.chat_input("Type your message..."):
             st.session_state.messages.pop()
         except Exception as e:
             st.error(f"Error: {str(e)}")
-            st.session_state.messages.pop()import streamlit as st
-
+            st.session_state.messages.pop()
